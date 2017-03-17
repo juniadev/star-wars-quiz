@@ -1,0 +1,27 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Star Wars Quiz</string>
+    <string name="characters_question">Which of these are characters from Star Wars? Select all that apply.</string>
+    <string name="han_solo">Han Solo</string>
+    <string name="mark_hamill">Mark Hamill</string>
+    <string name="princess_leia">Princess Leia</string>
+    <string name="year_first_movie_released">In what year was the first movie released?</string>
+    <string name="year_example">Ex: 2017</string>
+    <string name="name_last_movie_original_trilogy">What is the name of the last movie in the original trilogy?</string>
+    <string name="name_last_movie_example">Ex: The last one</string>
+    <string name="who_created_sw">Who created Star Wars?</string>
+    <string name="george_lucas">George Lucas</string>
+    <string name="steven_spielberg">Steven Spielberg</string>
+    <string name="walt_disney">Walt Disney</string>
+    <string name="name_poe_dameron_droid">What is the name of Poe Dameron\'s droid?</string>
+    <string name="c3po">C3PO</string>
+    <string name="r2d2">R2-D2</string>
+    <string name="bb8">BB-8</string>
+    <string name="send">Send</string>
+    <string name="reset">Reset</string>
+    <string name="return_of_the_jedi">Return of the Jedi</string>
+
+    <!-- Possible messages in Toast -->
+    <string name="true_jedi">True Jedi! You got all questions right!</string>
+    <string name="almost_there">Almost there! You got <xliff:g id="userScore">%d</xliff:g>/<xliff:g id="numQuestions">%d</xliff:g> right.</string>
+    <string name="try_again">You didn\'t hit any questions. Try again!</string>
+</resources>

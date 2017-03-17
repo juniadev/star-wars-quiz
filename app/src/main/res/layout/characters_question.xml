@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/star_wars_characters"
+        style="@style/MainText"
+        android:text="@string/characters_question" />
+
+    <CheckBox
+        android:id="@+id/sw_character_han"
+        style="@style/MainCheckboxRadio"
+        android:text="@string/han_solo" />
+
+    <CheckBox
+        android:id="@+id/sw_character_mark"
+        style="@style/MainCheckboxRadio"
+        android:text="@string/mark_hamill" />
+
+    <CheckBox
+        android:id="@+id/sw_character_leia"
+        style="@style/MainCheckboxRadio"
+        android:text="@string/princess_leia" />
+</merge>

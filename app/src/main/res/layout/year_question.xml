@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        style="@style/MainText"
+        android:text="@string/year_first_movie_released" />
+
+    <EditText
+        android:id="@+id/first_movie_year"
+        style="@style/MainEditText"
+        android:hint="@string/year_example"
+        android:inputType="numberDecimal" />
+</merge>

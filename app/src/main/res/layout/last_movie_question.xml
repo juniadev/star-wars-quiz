@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        style="@style/MainText"
+        android:text="@string/name_last_movie_original_trilogy" />
+
+    <EditText
+        android:id="@+id/last_movie_original_trilogy"
+        style="@style/MainEditText"
+        android:hint="@string/name_last_movie_example"
+        android:inputType="text" />
+</merge>

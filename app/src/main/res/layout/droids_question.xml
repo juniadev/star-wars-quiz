@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radio_group_droid"
+    style="@style/MainRadioGroup"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/name_poe_droid"
+        style="@style/MainText"
+        android:text="@string/name_poe_dameron_droid"/>
+
+    <RadioButton
+        android:id="@+id/droid_c3po"
+        style="@style/MainCheckboxRadio"
+        android:text="@string/c3po" />
+
+    <RadioButton
+        android:id="@+id/droid_r2d2"
+        style="@style/MainCheckboxRadio"
+        android:text="@string/r2d2" />
+
+    <RadioButton
+        android:id="@+id/droid_bb8"
+        style="@style/MainCheckboxRadio"
+        android:text="@string/bb8" />
+
+</RadioGroup>
